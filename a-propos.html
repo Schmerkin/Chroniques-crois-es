@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>À propos — Chroniques croisées</title>
+<style>
+  :root{
+    --paper:#F1EDE4;
+    --paper-dim:#E8E2D4;
+    --ink:#1C1A16;
+    --ink-soft:#5A5448;
+    --rule:#1C1A16;
+    --accent:#7A1F1F;
+    --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    --sans: "Helvetica Neue", Arial, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--serif);
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+  header{max-width:1180px;margin:0 auto;padding:36px 24px 0;}
+  .dateline{
+    display:flex;justify-content:space-between;
+    font-family:var(--sans);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--ink-soft);border-bottom:1px solid var(--rule);padding-bottom:8px;
+  }
+  .masthead{text-align:center;padding:28px 0 18px;border-bottom:4px solid var(--rule);}
+  .masthead h1{margin:0;font-size:clamp(40px,7vw,84px);font-weight:400;letter-spacing:.01em;line-height:.95;}
+  .masthead .accent{color:var(--accent);font-style:italic;}
+  .masthead .tagline{margin-top:10px;font-family:var(--sans);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);}
+  .masthead .tagline span{color:var(--accent);}
+  .rubric-bar{
+    display:flex;justify-content:center;gap:28px;
+    font-family:var(--sans);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+    padding:10px 0;border-bottom:1px solid var(--rule);color:var(--ink-soft);
+  }
+  .rubric-bar a{color:var(--ink-soft);}
+  .rubric-bar a:hover, .rubric-bar a.current{color:var(--accent);}
+
+  main{max-width:760px;margin:0 auto;padding:48px 24px 80px;}
+  .kicker{
+    font-family:var(--sans);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--accent);margin-bottom:10px;
+  }
+  main h2{
+    font-size:clamp(28px,4vw,40px);font-weight:400;line-height:1.1;margin:0 0 28px;
+    border-bottom:2px solid var(--ink);padding-bottom:18px;
+  }
+  main p{font-size:17px;line-height:1.7;margin:0 0 22px;}
+  main p.lede{
+    font-size:20px;line-height:1.55;color:var(--ink);
+    font-style:italic;border-left:3px solid var(--accent);padding-left:18px;
+  }
+  .signature{
+    margin-top:40px;padding-top:20px;border-top:1px dashed #ccc4b0;
+    font-family:var(--sans);font-size:12px;letter-spacing:.05em;color:var(--ink-soft);
+    text-transform:uppercase;
+  }
+  .back-link{
+    display:inline-block;margin-top:36px;font-family:var(--sans);font-size:12px;
+    letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);
+    border:1px solid var(--ink);padding:9px 16px;
+  }
+  .back-link:hover{color:var(--accent);border-color:var(--accent);}
+
+  footer{
+    max-width:1180px;margin:0 auto;padding:20px 24px 50px;border-top:1px solid var(--rule);
+    font-family:var(--sans);font-size:11px;color:var(--ink-soft);text-align:center;letter-spacing:.05em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="dateline">
+    <span>Carlos Schmerkin</span>
+    <span>Édition permanente</span>
+    <span>Paris — Buenos Aires</span>
+  </div>
+  <div class="masthead">
+    <h1>Chroniques <span class="accent">croisées</span></h1>
+    <div class="tagline">L'Argentine racontée à la France <span>·</span> la France racontée à l'Argentine <span>·</span> et les livres entre les deux</div>
+  </div>
+  <div class="rubric-bar">
+    <a href="index.html">Argentine</a>
+    <span>·</span>
+    <a href="index.html">France vue d'ailleurs</a>
+    <span>·</span>
+    <a href="index.html">Lectures</a>
+    <span>·</span>
+    <a href="a-propos.html" class="current">À propos</a>
+  </div>
+</header>
+
+<main>
+  <p class="kicker">Éditorial</p>
+  <h2>Un regard qui traverse l'Atlantique</h2>
+
+  <p class="lede">Ce site rassemble, sous un même toit, des textes écrits depuis trois rédactions, dans deux langues, sur deux continents — parce qu'ils racontent en réalité une seule histoire : celle d'un regard qui ne cesse de traverser l'Atlantique.</p>
+
+  <p>Depuis Paris, j'écris sur l'Argentine pour le Club Mediapart : sa politique, ses scandales, ses luttes de mémoire, la manière dont le pays négocie, encore aujourd'hui, avec le poids de sa dictature. Ce sont des textes en français, pour un lectorat français, sur un pays que la France connaît mal au-delà des clichés.</p>
+
+  <p>Depuis le même Paris, j'écris aussi sur la France — mais en espagnol, pour El Destape, à destination d'un lectorat argentin et latino-américain. Grèves, élections, dérives autoritaires, recompositions politiques : la France vue depuis l'extérieur, sans la familiarité qui parfois empêche de voir.</p>
+
+  <p>Et puis il y a les livres. Pour le magazine <em>Books</em>, j'écris sur les littératures et les essais latino-américains, dans cet exercice particulier qu'est la critique : faire entendre, en quelques milliers de signes, la voix d'un auteur qu'on n'a pas encore lu.</p>
+
+  <p>Ce site ne change rien à ces textes ni à leur lieu de publication d'origine — chaque lien renvoie directement à l'article, sur le support qui l'a publié. Il propose simplement un autre classement, par sujet plutôt que par rédaction, pour que les billets sur l'Argentine, les chroniques sur la France et les critiques de livres se répondent enfin entre eux.</p>
+
+  <div class="signature">Carlos Schmerkin — journaliste, Paris</div>
+
+  <a class="back-link" href="index.html">← Retour au mur</a>
+</main>
+
+<footer>
+  Chroniques croisées — un regard franco-argentin sur la politique et les lettres · mis à jour manuellement
+</footer>
+
+</body>
+</html>
